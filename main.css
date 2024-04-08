@@ -109,12 +109,11 @@ pre>code {
 }
 
 .wrapper {
-    max-width: -webkit-calc(800px - (30px * 2));
-    max-width: calc(800px - (30px * 2));
+    width: 800px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 30px;
-    padding-left: 30px
+    padding-left: 30px;
 }
 
 @media screen and (max-width: 800px) {
@@ -189,7 +188,11 @@ table td {
 }
 
 .site-title,.site-title:visited {
-    color: #424242
+    padding: 5px;
+    color: #424242;
+    font-size: 28px;
+    text-align: center;
+    float: left;
 }
 
 .site-nav {
