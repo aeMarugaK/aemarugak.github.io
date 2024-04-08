@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <a style="font-size: 1.5rem;" href="www.baidu.com" class="aElement">
+            PSTDA@DSAA2023
+        </a>
+        <a class="header-text aElement" href="www.baidu.com">
+            Call for Papers
+        </a>
+        <a class="header-text aElement" href="www.baidu.com">
+            Dates
+        </a>
+        <a class="header-text aElement" href="www.baidu.com">
+            Organization
+        </a>
+        <a class="header-text aElement" href="www.baidu.com">
+            Program
+        </a>
+    </div>
+    <div class="main">
+        <h1 style="margin-top: 1rem;">
+            Organization
+        </h1>
+        <h2 style="margin-top: 1rem;">
+            Conference Chairs
+        </h2>
+        <!-- <div class="photo">
+            <div class="photoTop">
+                <div>General Chairs</div>
+                <div>d</div>
+                <div>d</div>
+            </div>
+            <div class="photoMiddle">2</div>
+            <div class="photoBottom">3</div>
+        </div> -->
+        <table class="tablePhoto"  border="1" >
+            <tr>
+              <td>General Chairs</td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td><img src="./1.png" alt=""></td>
+              <td><img src="./2.png" alt=""></td>
+              <td><img src="./3.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        Amin Beheshti
+                    </div>
+                    <div>
+                        Professor
+                    </div>
+                    <div>
+                        Macquarie University
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        Victor S. Sheng
+                    </div>
+                    <div>
+                        Associate professor
+                    </div>
+                    <div>
+                        Texas Tech University
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        Guanfeng Liu
+                    </div>
+                    <div>
+                        Senior Lecturer
+                    </div>
+                    <div>
+                        Macquarie University
+                    </div>
+                </td>
+              </tr>
+          </table>
+        <div>
+            <h1>
+                Technical Program Committee
+            </h1>
+            <ul style="list-style-position: inside;">
+                <li>Lingjuan Lyu, Sony AI, Japan</li>
+                <li>Xiaochun Cheng, Middlesex University, U.K.</li>
+                <li>Weizhi Meng, Technical University of Denmark, Denmark</li>
+                <li>Meng Liu, Shandong University, China</li>
+                <li>g Xu, Nanjing University of Information Science and Technology, China
+                    Zhiyuan Tan, Edinburgh Napier University, UK</li>
+                <li>Gaofeng Zhang, Hefei University of Technology, China</li>
+                <li>Liangfu Lv, Tianjin University, China</li>
+                <li>Yifeng Zheng, Harbin Institute of Technology, China</li>
+                <li>Yirui Wu, Hohai University, China</li>
+                <li>Shunmei Meng, Nanjing University of Science and Technology, China</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerLeft" style="color: black;">
+            CQUPT
+        </div>
+        <div class="footerRight">
+            Special Session on private,secure and trust
+        </div>
+
+    </div>
+</body>
+
+</html>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+
+    .header {
+        border-top: 2px black solid;
+        border-bottom: 0.5px rgb(192, 192, 192) solid;
+        height: 4rem;
+        justify-content: center;
+        align-items: center;
+        /* border-style: solid;
+        border-bottom: black; */
+        display: flex;
+    }
+
+    .header-text {
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+
+    a,
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .footer {
+        margin-top: 0.5rem;
+        border-top: 0.5px rgb(192, 192, 192) solid;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .footerLeft,
+    .footerRight {
+        padding-top:20px;
+        font-size: 1rem;
+        color: rgb(192, 192, 192);
+        width: 25%;
+        height: 1rem;
+    }
+    /* .photo{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+    }
+    .photo div{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .photoTop{
+        background-color: rgb(217, 217, 217);
+        border: 1px solid rgb(245,245, 245);
+    }
+    .photoTop div{
+        border: 1px solid rgb(245,245, 245);
+    } */
+    .tablePhoto{
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    .tablePhoto,.tablePhoto tr th,.tablePhoto tr td{
+        border:1px rgb(208, 205, 205)  solid;
+    }
+    .tablePhoto tr td{
+        width: 33%;
+        vertical-align: middle;
+    }
+    .tablePhoto tr:nth-child(1),.tablePhoto tr:nth-child(3){
+        background-color: rgb(192, 192, 192);
+    }
+    .tablePhoto tr td img{
+        width: 70%;
+        height: 70%;
+        margin:  auto;
+    }
+    .main {
+        width: 50%;
+        margin: 0 auto;
+    }
+</style>
